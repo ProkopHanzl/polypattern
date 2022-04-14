@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 body {
 	margin: 0px;
@@ -85,7 +85,6 @@ section {
 	-moz-user-select: auto;
 	-ms-user-select: auto;
 	user-select: auto;
-
 }
 
 .rhythmDiv {
@@ -128,7 +127,8 @@ section {
 	line-height: 48px;
 }
 
-.instrumentRow1, .instrumentRow2 {
+.instrumentRow1,
+.instrumentRow2 {
 	display: flex;
 }
 
