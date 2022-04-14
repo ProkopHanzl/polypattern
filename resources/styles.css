@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	margin: 0px;
+	background-color: #181818;
+	color: #fff;
+	font-family: "Raleway";
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h1 {
+	line-height: 0.5em;
+}
+
+section {
+	padding: 64px;
+}
+
+.projectInfo {
+	width: 768px;
+	background-color: #181818;
+	padding: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 32px;
+	font-size: 0.75em;
+}
+
+.paypalButton {
+	width: 256px;
+	height: 48px;
+	line-height: 48px;
+	border: 0px;
+	border-radius: 0px;
+	margin-top: 16px;
+	font-family: Raleway;
+	background-color: #000;
+	color: #fff;
+	font-size: 1.3em;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.2s ease all;
+}
+
+.paypalButton:hover {
+	background-color: #101010;
+}
+
+#bodySection {
+	background-color: #000;
+}
+
+#settingsContainer {
+	background-color: #181818;
+	height: 40px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+#generalContainer {
+	background-color: #181818;
+	width: 768px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 16px;
+	padding-top: 32px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: Montserrat;
+}
+
+.rhythmSpeed {
+	-webkit-touch-callout: auto;
+	-webkit-user-select: auto;
+	-khtml-user-select: auto;
+	-moz-user-select: auto;
+	-ms-user-select: auto;
+	user-select: auto;
+
+}
+
+.rhythmDiv {
+	height: 96px;
+	line-height: 96px;
+	background-color: #282828;
+	margin: 16px;
+	overflow: hidden;
+	transition: 0.3s ease all;
+	padding: 16px;
+	text-align: left;
+	position: relative;
+}
+
+.beatDisplayContainer {
+	display: flex;
+	position: absolute;
+	top: 0px;
+	left: -2px;
+	width: calc(100% + 4px);
+}
+
+.orangeDiv {
+	flex: 1;
+	background-color: #f1825f;
+	height: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	transition: 0.05s ease all;
+}
+
+.chooseInstrument {
+	position: absolute;
+	top: 16px;
+	left: 128px;
+	background-color: #181818;
+	color: #808080;
+	height: 96px;
+	width: 256px;
+	line-height: 48px;
+}
+
+.instrumentRow1, .instrumentRow2 {
+	display: flex;
+}
+
+.instrumentDiv {
+	flex: 1;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.1s ease all;
+}
+
+.instrumentDiv:hover {
+	color: #fff;
+}
+
+.selectedInst {
+	color: #80ffff;
+}
+
+.selectedInst:hover {
+	color: #80ffff;
+}
+
+.indiSettings {
+	position: absolute;
+	top: 16px;
+	left: 400px;
+	line-height: 40px;
+}
+
+.accentFirstDiv {
+	color: #808080;
+	cursor: pointer;
+	text-align: center;
+	background-color: #181818;
+	transition: 0.1s ease all;
+	width: 264px;
+}
+
+.volumeDiv {
+	color: #808080;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.1s ease all;
+	position: relative;
+	top: 16px;
+	width: 320px;
+	height: 40px;
+}
+
+.slider {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0;
+	background-color: #181818;
+	height: 40px;
+	width: 320px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	outline: none;
+	cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 40px;
+	width: 10px;
+	background-color: #80ffff;
+}
+
+.volumeTag {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 40px;
+	pointer-events: none;
+}
+
+#bpmDiv {
+	color: #808080;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.1s ease all;
+	position: relative;
+	width: calc(50% - 8px);
+	height: 40px;
+	line-height: 40px;
+	background-color: #080808;
+}
+
+#bpmSlider {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0;
+	background-color: #282828;
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	outline: none;
+	cursor: pointer;
+}
+
+#bpmSlider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 40px;
+	width: 10px;
+	background-color: #80ffff;
+}
+
+#bpmTag {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 40px;
+	pointer-events: none;
+}
+
+#globalVolDiv {
+	color: #808080;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.1s ease all;
+	position: relative;
+	top: -40px;
+	left: calc(50% + 8px);
+	width: calc(50% - 8px);
+	height: 40px;
+	line-height: 40px;
+	background-color: #080808;
+}
+
+#globalVolSlider {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0;
+	background-color: #282828;
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	outline: none;
+	cursor: pointer;
+}
+
+#globalVolSlider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 40px;
+	width: 10px;
+	background-color: #80ffff;
+}
+
+#globalVolTag {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 40px;
+	pointer-events: none;
+}
+
+.closeRhythm {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	width: 40px;
+	height: 40px;
+	background-color: #181818;
+	line-height: 40px;
+	text-align: center;
+	font-size: 1em;
+	cursor: pointer;
+	color: #aaa;
+	transition: 0.1s ease all;
+}
+
+.closeRhythm:hover {
+	background-color: #202020;
+	color: #fff;
+}
+
+.rhythmSpeed {
+	height: 96px;
+	width: 96px;
+	background-color: #181818;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 2.5em;
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#addRhythm {
+	height: 128px;
+	line-height: 128px;
+	background-color: #282828;
+	margin: 16px;
+	cursor: pointer;
+	transition: 0.05s ease all;
+	position: relative;
+	left: 0px;
+}
+
+#rhythmError {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 128px;
+	width: 100%;
+	line-height: 128px;
+	background-color: #482828;
+	opacity: 0;
+	cursor: pointer;
+	transition: 0.3s ease all;
+	z-index: 255;
+}
+
+#rhythmErrorEdit {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 128px;
+	width: 100%;
+	line-height: 128px;
+	background-color: #482828;
+	opacity: 0;
+	cursor: pointer;
+	transition: 0.3s ease all;
+	z-index: 255;
+}
+
+#addRhythm:hover {
+	background-color: #303030;
+}
+
+#footerSection {
+	color: #aaa;
+	font-size: 0.6em;
+}
